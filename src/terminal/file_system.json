@@ -1,0 +1,34 @@
+{
+    "name": "Home.folder",
+    "content":[
+        {
+            "name": "Projects.folder",
+            "content": [
+                {"name": "ft_printf.text", "content": "ft_printf is one of the first 42 projects. Consisting of a function that\nmimics the behavior of the 'printf' function from the C standard library.\nThis project focuses on solidifying the basics of C programming and\nprepares the students for the projects that follow in the 42 curriculum."},
+                {"name": "get_next_line.text", "content": "get_next_line (or GNL for short) is a project set on the same level of\ncomplexity as ft_printf, however, instead of focusing on formatting output,\nthis project focuses on teaching the basics of file I/O operations.\nGNL consists of a function that outputs the line after the last one read\nfrom a file."},
+                {"name": "push_swap.text", "content": "push_swap is a step up from all the previous projects, combining all of the\nbasics and logic learnt. This project aims to introduce the concept of time\nand space complexity and program optimization. push_swap requires the student\nto make a sorting algorithm under strict rules that performs well with small\nand big datasets."},
+                {"name": "A-Maze-ing.text", "content": "A-Maze-ing marks a change in the direction that 42 is heading. Being the first\npython project, A-Maze-ing introduces the concept of OOP (Object Oriented Programming)\nand programming as a team. The student now has to not only consolidate a new programming\nlanguage full of different concepts but also learn how to engineer a maze generator\nand solving algorithm, all while learning project and version management for groups.\nThis is a change in pace and one more critical project to succeed as a 42 student and\nsoftware engineer."},
+                {"name": "ft_printf.github", "content": "https://github.com/MiguelTeixeira07/42C/tree/main/ft_printf"},
+                {"name": "get_next_line.github", "content": "https://github.com/MiguelTeixeira07/42C/tree/main/get_next_line"},
+                {"name": "push_swap.github", "content": "https://github.com/MiguelTeixeira07/42C/tree/main/push_swap"},
+                {"name": "A-Maze-ing.github", "content": "https://github.com/MiguelTeixeira07/A-Maze-ing"}
+            ]
+        },
+        {
+            "name": "Open_Me.text",
+            "content": "Hi! Are you liking my website? Different concept than the usual! It's challenging\nbut fun to navigate. Don't hesitate in exploring all the little details I left here\nfor anyone curious enough to find them. Have fun!"
+        },
+        {
+            "name": "About_Me.text",
+            "content": "Hey, my name is Miguel and I'm a 42 Student and aspiring software developer.\nMy goal in life ever since I was a kid has been to do something related to science,\nand computer science happened to be the field that fascinated me the most, not only for\nbeing open to anyone who has a computer, but also for the complex simplicity behind\neverything a computer does. I have always liked to make thoughts real and programming is\nthe way I found to express my urge to create."
+        },
+        {
+            "name": "Github.web",
+            "content": "https://github.com/MiguelTeixeira07"
+        },
+        {
+            "name": "LinkedIn.web",
+            "content": "https://www.linkedin.com/in/miguel-teixeira-154799310/"
+        }
+    ]
+}

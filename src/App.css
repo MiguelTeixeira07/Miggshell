@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'console';
+  src: url(./assets/fonts/MPLUSCodeLatin-VariableFont_wdth\,wght.ttf) format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  background-color: #101111;
+  padding: 20px;
+}
+
+.App {
+  background-color: #101111;
+  color: #DDD;
+  font-family: 'console';
+  font-size: 30px;
+  width: 100%;
+  display: block;
+}
+
+.InputDiv {
+  display: flex;
+  background-color: #2a2c2c;
+}
+
+input {
+  border: None;
+  margin-left: 15px;
+  margin-right: 20px;
+  padding: 0px;
+  color: #DDD;
+  align-self: center;
+  font-family: 'console';
+  background: None;
+  outline: none;
+  box-shadow: none;
+  font-size: 30px;
+  width: 100%;
+}
