@@ -46,6 +46,8 @@ function help_command(command, current_folder) {
         output = `Unknown command: ${command.split(' ')[0]}\n`;
         output += 'Run command "help" to get a complete list of available commands '
         output += 'with their descriptions.';
+
+        return [output, current_folder];
     }
   }
   
@@ -140,8 +142,6 @@ function open_command(command, current_folder) {
           window.open(file.content);
           output += 'Did you like my Profile? ;D';
           break;
-        default:
-          return;
       }
     }
   }
@@ -151,7 +151,7 @@ function open_command(command, current_folder) {
     output += 'File "' + command.split(' ')[1] + `" doesn't exist in this folder.\n`;
     output += 'Run command "help open" to get a set of instructions for the "open" ';
     output += 'command.';
-    output += path.content;
+    
     return [output, current_folder];
   }
   
@@ -171,7 +171,7 @@ function goback_command(command, current_folder) {
   
   if(current_folder === ' Home') {
     output += 'You are already on the "Home" folder, there is nothing behind.';
-    return output;
+    return [output, current_folder];
   }
   
   current_folder = ' Home';
